@@ -11,6 +11,7 @@
  "rotateSpeed": 2,
  "range": 30,
  "isCounted": false,
+  "range": 80,
  "mineTier": 4,
  "mineSpeed": 5.5,
  "armor": 4,
