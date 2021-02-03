@@ -20,7 +20,12 @@
     graphite/60,
     silicon/70 ]
    "time": 1080
-  }
+  },
+  {"unit": "surge",
+   "requirements": [
+    coal/15,
+    silicon/10]
+  "time": 180}
 ],
 "itemCapacity": 60,
 "requirements": [

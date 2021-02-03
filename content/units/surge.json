@@ -1,0 +1,32 @@
+{"health": 180,
+"armor":2,
+"accel": 0.1,
+"drag": 0.07,
+"range": 40,
+"speed": 2.8,
+"rotateSpeed": 2,
+"commandLimit": 3,
+"name": "Scourge",
+"rotateSpeed": 2.8,
+"description": "Unicorp's attack drone, mainly used as Enforcer's weapon. Unicorp always finds a way around the problem, even if it comes down to destruction. Mainly to destruction."
+"flying": "true",
+"rotateShooting": "true",
+"hitSize": 8,
+weapons: [{
+  name: Flamethrower
+  x: 3
+  y: 3
+  shootSound: flame
+  reload: 15
+  alternate: true
+  recoil: 1
+  damage: 2
+  ejectEffect: none
+  bullet: pyraFlame
+}]
+"targetAir": "true",
+"targetGround": "true",
+"research": {"parent": "unicorp-assembler",
+              "requirements": [coal/1500
+                               silicon/1200]}
+}

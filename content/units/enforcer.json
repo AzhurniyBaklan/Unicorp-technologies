@@ -1,6 +1,6 @@
 {"name": "Enforcer"
  "flying": true,
- "description": "Unicorp's builder ship, heavily armored and fast. Now it's not an embarassment."
+ "description": "Unicorp's builder ship, heavily armored and fast, equipped with a Scourge-drone factory to defend itself. Now it's not an embarassment."
  "drag": 0.08,
  "hitsize": 35,
  "accel": 0.13
@@ -17,8 +17,8 @@
  "buildSpeed": 4,
  "itemCapacity": 40,
  "research":{
-"parent": "embarassment",
-"requirements": [
+ "parent": "embarassment",
+ "requirements": [
        silicon/7000,
        plastanium/5500,
        thorium/6000,
