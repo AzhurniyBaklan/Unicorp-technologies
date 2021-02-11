@@ -1,9 +1,10 @@
 {"name": "Scarab",
  "description": "Huge miner ship, equipped with a powerful weaponry to destroy it's enemies. Still doesn't want to."
  "health": 6500,
- "Speed": 1.2,
+ "speed": 1.2,
  "drag": 0.05,
  "flying": true,
+ "rotateSpeed": 1.2,
  "accel": 0.2,
  "hitsize": 50,
  "engineSize": 8,

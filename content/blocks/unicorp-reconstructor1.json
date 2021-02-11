@@ -23,7 +23,8 @@
   thorium/1000
 ],
 "upgrades": [["backwater", "scarab"]
-             ["embarassment", "enforcer"]],
+             ["embarassment", "enforcer"]
+             ["surge", "razor"]],
 "category": "units",
 "research": "unicorp-assembler"
 }

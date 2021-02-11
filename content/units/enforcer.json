@@ -3,6 +3,7 @@
  "description": "Unicorp's builder ship, heavily armored and fast, equipped with a Scourge-drone factory to defend itself. Now it's not an embarassment."
  "drag": 0.08,
  "hitsize": 35,
+ "rotateSpeed": 2.2,
  "accel": 0.13
  "speed": 2.2,
  "health": 6000,

@@ -9,7 +9,7 @@
  "health": 500,
  "engineSize": 4,
  "engineOffset": 7.5,
- "rotateSpeed": 2,
+ "rotateSpeed": 1.65,
  "range": 30,
  "isCounted": false,
  "mineTier": 4,

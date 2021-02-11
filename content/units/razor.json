@@ -1,0 +1,55 @@
+{"name": "Razor"
+ "flying": true,
+ "description": "Unicorp's frigate. Has a power shield to protect itself and it's surroundings."
+ "drag": 0.08,
+ "hitsize": 35,
+ "accel": 0.13
+ "speed": 1.7,
+ "health": 5500,
+ "rotateSpeed": 1.7,
+ "commandLimit": 0,
+ "armor": 5,
+ "engineSize": 5,
+ "engineOffset": 10.5,
+ "range": 120,
+ "isCounted": false,
+ "mineTier": 3,
+ "mineSpeed": 3,
+ "itemCapacity": 200,
+ "weapons":[{
+        "name": "razor-gun",
+        "reload": 25,
+        "x": 0,
+        "shots": 2,
+        "mirror": false,
+        "shootY": -2,
+        "rotate": "true",
+        "spacing": 1,
+        "shootSound": "pew"
+        "ejectEffect": "casing1",
+        "bullet": {
+            "type": "BasicBulletType",
+            "damage": 85,
+            "speed": 5.2,
+            "width": 10,
+            "height": 17,
+            "frontColor": d06b53,
+            "backColor": ffa665,
+            "homingPower": 0.4,
+            "inaccuracy": 2,
+            "lifetime": 100,
+            "splashDamageRadius": 12,
+            "splashDamage": 20
+        }
+                shootEffect: sparkShoot,
+    		smokeEffect: sparkShoot
+    }],
+ "research":{
+ "parent": "surge",
+ "requirements": [
+       silicon/8000,
+       titanium/6500,
+       thorium/7000,
+       phase-fabric/500
+]}
+}
