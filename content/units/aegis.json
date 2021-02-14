@@ -15,7 +15,7 @@
  "isCounted": false,
  "itemCapacity": 20,
  "research":{
-"parent": "force-projector",
+"parent": "quasar",
 "requirements": [
        silicon/1500,
        graphite/1500,

@@ -10,6 +10,7 @@
  "commandLimit": 0,
  "armor": 5,
  "engineSize": 5,
+ "lowAltitude": true,
  "engineOffset": 10.5,
  "range": 120,
  "isCounted": false,

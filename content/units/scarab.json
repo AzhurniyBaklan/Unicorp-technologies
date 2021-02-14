@@ -9,7 +9,7 @@
  "hitsize": 50,
  "engineSize": 8,
  "engineOffset": 7.5,
- "rotateSpeed": 1.7,
+ "lowAltitude": true,
  "range": 120,
  "mineTier": 6,
  "mineSpeed": 8,

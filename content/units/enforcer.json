@@ -9,6 +9,7 @@
  "health": 6000,
  "armor": 7,
  "circleTarget": "true",
+ "lowAltitude": true,
  "engineSize": 5,
  "engineOffset": 8.5,
  "range": 120,

@@ -11,6 +11,7 @@
 "description": "Unicorp's attack drone, mainly used as Enforcer's weapon. Unicorp always finds a way around the problem, even if it comes down to destruction. Mainly to destruction."
 "flying": "true",
 "rotateShooting": "true",
+"lowAltitude": true,
 "hitSize": 8,
 weapons: [{
   name: Flamethrower

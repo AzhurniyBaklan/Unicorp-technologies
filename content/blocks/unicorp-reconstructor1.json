@@ -24,7 +24,8 @@
 ],
 "upgrades": [["backwater", "scarab"]
              ["embarassment", "enforcer"]
-             ["surge", "razor"]],
+             ["surge", "razor"]
+             ["aegis", "sickle"]]
 "category": "units",
 "research": "unicorp-assembler"
 }
