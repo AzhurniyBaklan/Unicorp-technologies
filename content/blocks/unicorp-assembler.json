@@ -25,7 +25,13 @@
    "requirements": [
     coal/15,
     silicon/10]
-  "time": 180}
+  "time": 180},
+  {"unit": "aegis",
+   "requirements": [
+    graphite/15,
+    silicon/10,
+    metaglass/15]
+  "time": 360}
 ],
 "itemCapacity": 60,
 "requirements": [

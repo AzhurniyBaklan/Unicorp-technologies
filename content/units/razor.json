@@ -1,6 +1,6 @@
 {"name": "Razor"
  "flying": true,
- "description": "Unicorp's frigate. Has a power shield to protect itself and it's surroundings."
+ "description": "Unicorp's sniper ship. Has a power field to protect itself and it's surroundings."
  "drag": 0.08,
  "hitsize": 35,
  "accel": 0.13
@@ -18,28 +18,28 @@
  "itemCapacity": 200,
  "weapons":[{
         "name": "razor-gun",
-        "reload": 25,
+        "reload": 200,
         "x": 0,
-        "shots": 2,
+        "shots": 5,
         "mirror": false,
-        "shootY": -2,
+        "shootY": -3,
         "rotate": "true",
         "spacing": 1,
         "shootSound": "pew"
         "ejectEffect": "casing1",
         "bullet": {
             "type": "BasicBulletType",
-            "damage": 85,
-            "speed": 5.2,
+            "damage": 120,
+            "speed": 5.5,
             "width": 10,
             "height": 17,
             "frontColor": d06b53,
             "backColor": ffa665,
             "homingPower": 0.4,
-            "inaccuracy": 2,
-            "lifetime": 100,
-            "splashDamageRadius": 12,
-            "splashDamage": 20
+            "inaccuracy": 1,
+            "lifetime": 50,
+            "splashDamageRadius": 0.5,
+            "splashDamage": 10
         }
                 shootEffect: sparkShoot,
     		smokeEffect: sparkShoot

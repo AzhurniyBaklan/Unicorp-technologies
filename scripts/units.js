@@ -21,3 +21,7 @@ enforcer.abilities.add(new UnitSpawnAbility(surge, 500, 0, -5));
 const razor = extendContent(UnitType, "razor", {});
 razor.constructor = () => extend(UnitEntity, {});
 razor.abilities.add(new ForceFieldAbility(70, 7, 220, 600));
+
+const aegis = extendContent(UnitType, "aegis", {});
+aegis.constructor = () => extend(UnitEntity, {});
+aegis.abilities.add(new ForceFieldAbility(50, 6, 300, 500));
