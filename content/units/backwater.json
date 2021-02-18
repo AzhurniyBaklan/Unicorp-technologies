@@ -1,6 +1,6 @@
 {"name": "Backwater"
  "flying": true,
- "description": "Uni-corp's second model of the mining drone. Now it's capable of actually doing work and defending itself (the trick is that it doesn't want to)."
+ "description": "Unicorp's alternative model of the mining drone. It's capable of actually doing work and defending itself (the trick is that it doesn't want to)."
  "drag": 0.07,
  "range": 80,
  "hitsize": 25,
@@ -16,8 +16,7 @@
  "mineTier": 4,
  "mineSpeed": 5.5,
  "armor": 4,
- "itemCapacity": 55,
- "lowAltitude": true,
+ "itemCapacity": 100,
  "weapons":
  [
  {"name": "backwater-shotgun",

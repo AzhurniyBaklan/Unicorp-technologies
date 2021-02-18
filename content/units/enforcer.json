@@ -1,6 +1,6 @@
 {"name": "Enforcer"
  "flying": true,
- "description": "Unicorp's builder ship, heavily armored and fast, equipped with a Scourge-drone factory to defend itself. Now it's not an embarassment."
+ "description": "Unicorp's builder ship, heavily armored and fast. Now it's not an embarassment."
  "drag": 0.08,
  "hitsize": 35,
  "rotateSpeed": 2.2,
@@ -17,7 +17,7 @@
  "mineTier": 3,
  "mineSpeed": 4,
  "buildSpeed": 4,
- "itemCapacity": 40,
+ "itemCapacity": 80,
  "research":{
  "parent": "embarassment",
  "requirements": [

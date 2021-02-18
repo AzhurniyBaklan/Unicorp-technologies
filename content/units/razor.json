@@ -1,6 +1,6 @@
 {"name": "Razor"
  "flying": true,
- "description": "Unicorp's sniper ship. Has a power field to protect itself and it's surroundings."
+ "description": "Unicorp's sniper ship. Specializes on building destructruction."
  "drag": 0.08,
  "hitsize": 35,
  "accel": 0.13
@@ -16,12 +16,12 @@
  "isCounted": false,
  "mineTier": 3,
  "mineSpeed": 3,
- "itemCapacity": 200,
+ "itemCapacity": 80,
  "weapons":[{
         "name": "razor-gun",
-        "reload": 200,
+        "reload": 400,
         "x": 0,
-        "shots": 5,
+        "shots": 3,
         "mirror": false,
         "shootY": -3,
         "rotate": "true",
@@ -30,7 +30,7 @@
         "ejectEffect": "casing1",
         "bullet": {
             "type": "BasicBulletType",
-            "damage": 120,
+            "damage": 175,
             "speed": 5.5,
             "width": 10,
             "height": 17,
@@ -39,7 +39,8 @@
             "homingPower": 0.4,
             "inaccuracy": 1,
             "lifetime": 50,
-            "splashDamageRadius": 0.5,
+            "buildingDamageMultiplier": 1.5,
+            "splashDamageRadius": 2,
             "splashDamage": 10
         }
                 shootEffect: sparkShoot,

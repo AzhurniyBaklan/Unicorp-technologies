@@ -1,5 +1,5 @@
 {"type": "Reconstructor",
-"name": "Unicorp-reconstructor",
+"name": "Unicorp's additive reconstructor",
 "description": "Upgrades inputted unicorp drones to the second tier. Promotions for everyone.",
 "size": "5",
 "health": 2000,
@@ -9,17 +9,17 @@
     "items": [
     silicon/900,
     graphite/1000,
-    phase-fabric/200,
+    phase-fabric/350,
     thorium/800
     ]
   }
 },
-"constructTime": 3000,
+"constructTime": 4000,
 "requirements": [
   copper/2000,
   lead/1600,
   silicon/1000,
-  surge-alloy/200,
+  plastanium/500,
   thorium/1000
 ],
 "upgrades": [["backwater", "scarab"]

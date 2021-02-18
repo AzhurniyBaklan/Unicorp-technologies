@@ -8,7 +8,7 @@
 "commandLimit": 3,
 "name": "Scourge",
 "rotateSpeed": 2.8,
-"description": "Unicorp's attack drone, mainly used as Enforcer's weapon. Unicorp always finds a way around the problem, even if it comes down to destruction. Mainly to destruction."
+"description": "Unicorp's meat shield. Quantity over quality at it's finest."
 "flying": "true",
 "rotateShooting": "true",
 "lowAltitude": true,

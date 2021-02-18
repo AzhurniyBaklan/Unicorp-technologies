@@ -1,6 +1,6 @@
 {"name": "Embarassment"
  "flying": true,
- "description": "Uni-corp's simplest model of the mining drone. Company does not take responsibility for any spontaneous breakdowns."
+ "description": "Unicorp's simplest model of the mining drone. Company does not take responsibility for any spontaneous breakdowns."
  "drag": 0.08,
  "hitsize": 15,
  "rotateSpeed": 1.7,
@@ -14,7 +14,7 @@
  "isCounted": false,
  "mineTier": 3,
  "mineSpeed": 4,
- "itemCapacity": 40,
+ "itemCapacity": 60,
  "research":{
 "parent": "unicorp-assembler",
 "requirements": [

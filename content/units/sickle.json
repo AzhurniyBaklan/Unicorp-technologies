@@ -1,11 +1,11 @@
 {"name": "Sickle",
- "description": "Fast boarding ship. Fires sapping lasers and strong homing missiles."
+ "description": "Unicorp's pest eradicator. Destroys anything remotely annoying, from flares to eclipses. Can't really destroy blocks though."
  "health": 6000,
  "speed": 3,
- "drag": 0.05,
+ "drag": 0.3,
  "flying": true,
  "rotateSpeed": 3,
- "accel": 0.1,
+ "accel": 0.4,
  "hitsize": 30,
  "engineSize": 4,
  "engineOffset": 5.5,
@@ -26,6 +26,7 @@
     		"damage": 25,
     		"lifeTime": 10,
     		"despawnEffect": none,
+                "buildingDamageMultiplier": 0.4,
     		"hitColor": d06b53
     		}
     },
@@ -55,7 +56,8 @@
                   "trailColor": d06b53,
                   "length": 15,
                   "width": 7,
-                  "damage": 150}
+                  "buildingDamageMultiplier": 0.2,
+                  "damage": 200}
     }],
  "armor": 6,
  "itemCapacity": 60,

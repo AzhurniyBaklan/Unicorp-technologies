@@ -1,10 +1,10 @@
 {
-"name": "Excavation drones fabricator",
-"description": "The gates to the Great World of Uni-corp! Produces all types of drones. And probably financial crysis.",
-"health": 400,
+"name": "Unicorp's drones fabricator",
+"description": "The gates to the Great World of Unicorp! Produces all types of drones. And probably financial crysis.",
+"health": 1000,
 "type":"unitFactory",
 "size": 3,
-"consumes": {"power": 2},
+"consumes": {"power": 3},
 "plans":  [
   {"unit": "embarassment",
    "requirements": [
@@ -12,14 +12,14 @@
        titanium/30,
        metaglass/20
     ],
-    "time": 650 },
+    "time": 700 },
   {"unit": "backwater",
    "requirements": [
     plastanium/40,
     thorium/50,
     graphite/60,
     silicon/70 ]
-   "time": 1080
+   "time": 700
   },
   {"unit": "surge",
    "requirements": [
@@ -29,13 +29,12 @@
   {"unit": "aegis",
    "requirements": [
     graphite/15,
-    silicon/10,
+    silicon/20,
     metaglass/15]
-  "time": 360}
+  "time": 700}
 ],
-"itemCapacity": 60,
 "requirements": [
-  thorium/50,
+  graphite/100,
   titanium/140,
   silicon/70,
 ],

@@ -1,5 +1,5 @@
 {"name": "Scarab",
- "description": "Huge miner ship, equipped with a powerful weaponry to destroy it's enemies. Still doesn't want to."
+ "description": "Unicorp's main workforce. It's equipped with a powerful weaponry to destroy it's enemies. Still doesn't want to."
  "health": 6500,
  "speed": 1.2,
  "drag": 0.05,
@@ -12,7 +12,7 @@
  "lowAltitude": true,
  "range": 120,
  "mineTier": 6,
- "mineSpeed": 8,
+ "mineSpeed": 12,
  "weapons":[
  {"name": "scarab-shotgun",
   	"shootY": -2,
@@ -72,7 +72,7 @@ shootEffect: sparkShoot,
     		smokeEffect: sparkShoot,
     }],
  "armor": 6,
- "itemCapacity": 80,
+ "itemCapacity": 180,
  "research": {"parent": "backwater",
              "requirements": [plastanium/6000,
                                surge-alloy/2000,
