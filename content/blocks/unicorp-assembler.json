@@ -12,7 +12,7 @@
        titanium/30,
        metaglass/20
     ],
-    "time": 700 },
+    "time": 600 },
   {"unit": "backwater",
    "requirements": [
     plastanium/40,
@@ -31,7 +31,7 @@
     graphite/15,
     silicon/20,
     metaglass/15]
-  "time": 700}
+  "time": 600}
 ],
 "requirements": [
   graphite/100,

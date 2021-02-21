@@ -16,10 +16,9 @@
 },
 "constructTime": 4000,
 "requirements": [
-  copper/2000,
-  lead/1600,
+  copper/1200,
+  graphite/1000,
   silicon/1000,
-  plastanium/500,
   thorium/1000
 ],
 "upgrades": [["backwater", "scarab"]

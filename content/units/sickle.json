@@ -22,7 +22,7 @@
   	"shootSound": "sap",
   	"bullet": {
     		"type": "SapBulletType",
-    		"length": 75,
+    		"length": 85,
     		"damage": 25,
     		"lifeTime": 10,
     		"despawnEffect": none,
@@ -40,7 +40,7 @@
        "shootSound": "missile",
        "velocityRnd": 0.5,
        "inaccuracy": 5
-       "reload": 75,
+       "reload": 65,
        "bullet": {"type": "MissileBulletType",
                   "homingPower": 0.4,
                   "weaveMag": 5,
