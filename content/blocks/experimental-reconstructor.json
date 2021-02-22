@@ -14,14 +14,15 @@
     ]
   }
 },
-"constructTime": 700,
+"constructTime": 1700,
 "requirements": [
   copper/200,
   graphite/150,
   silicon/150,
   titanium/100
 ],
-"upgrades": [["flare", "mule"]],
+"upgrades": [["flare", "mule"],
+             ["mono", "symbol"]],
 "category": "units",
 "research": "additive-reconstructor"
 }

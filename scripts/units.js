@@ -1,5 +1,6 @@
 const surge = extendContent(UnitType, "surge", {});
 surge.constructor = () => extend(UnitEntity, {});
+
 let blue = Color.valueOf("#e5e5ff");
 
 const embarassment = extendContent(UnitType, "embarassment", {});
