@@ -22,7 +22,8 @@
   titanium/100
 ],
 "upgrades": [["flare", "mule"],
-             ["mono", "symbol"]],
+             ["mono", "symbol"],
+             ["risso", "outlander"]],
 "category": "units",
 "research": "additive-reconstructor"
 }
