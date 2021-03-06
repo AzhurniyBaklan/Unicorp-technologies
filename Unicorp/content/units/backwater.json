@@ -1,0 +1,58 @@
+{"name": "Backwater"
+ "flying": true,
+ "description": "Unicorp's alternative model of the mining drone. It's capable of actually doing work and defending itself (the trick is that it doesn't want to)."
+ "drag": 0.07,
+ "range": 80,
+ "hitsize": 25,
+ "accel": 0.1,
+ "speed": 1.65,
+ "health": 500,
+ "lowAltitude": true,
+ "engineSize": 4,
+ "engineOffset": 7.5,
+ "rotateSpeed": 1.65,
+ "range": 30,
+ "isCounted": false,
+ "mineTier": 4,
+ "mineSpeed": 5.5,
+ "armor": 4,
+ "itemCapacity": 100,
+ "weapons":
+ [
+ {"name": "backwater-shotgun",
+  	"shootY": -1,
+        x:10,
+  	"reload": 50,
+  	"ejectEffect": "none",
+        "mirror": "true",
+        "alternate": "true",
+  	"recoilAmount": 2,
+  	"rotate": "true",
+  	"shootSound": "pew"
+  	"bullet": {
+    		"type": "ShrapnelBulletType",
+    		"length": 95,
+    		"damage": 31,
+    		"width": 48,
+    		"lifeTime": 35,
+    		"serrationLenScl": 2,
+    		"serrationSpaceOffset": 1,
+    		"serrationFadeOffset": 0,
+    		"serrations": 15,
+    		"serrationWidth": 60,
+    		"fromColor": d06b53,
+    		"toColor": ffa665,
+    		
+shootEffect: sparkShoot,
+    		smokeEffect: sparkShoot,
+    		}
+                }],
+ "research":{
+"parent": "unicorp-assembler",
+"requirements": [
+    plastanium/2000,
+    thorium/2500,
+    graphite/3000,
+    silicon/3500
+]}
+}

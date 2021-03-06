@@ -1,0 +1,55 @@
+{"name": "Razor"
+ "flying": true,
+ "description": "Unicorp's sniper ship. Specializes on building destructruction."
+ "drag": 0.08,
+ "hitsize": 35,
+ "accel": 0.13
+ "speed": 1.7,
+ "health": 5500,
+ "rotateSpeed": 1.7,
+ "commandLimit": 0,
+ "armor": 5,
+ "engineSize": 5,
+ "lowAltitude": true,
+ "engineOffset": 10.5,
+ "range": 120,
+ "isCounted": false,
+ "mineTier": 3,
+ "mineSpeed": 3,
+ "itemCapacity": 80,
+ "weapons":[{
+        "name": "razor-gun",
+        "reload": 350,
+        "x": 0,
+        "shots": 3,
+        "mirror": false,
+        "shootY": -3,
+        "rotate": "true",
+        "spacing": 1,
+        "shootSound": "pew"
+        "ejectEffect": "casing1",
+        "bullet": {
+            "type": "BasicBulletType",
+            "damage": 185,
+            "speed": 6.5,
+            "width": 10,
+            "height": 17,
+            "frontColor": d06b53,
+            "backColor": ffa665,
+            "lifetime": 50,
+            "buildingDamageMultiplier": 1.5,
+            "splashDamageRadius": 2,
+            "splashDamage": 10
+        }
+                shootEffect: sparkShoot,
+    		smokeEffect: sparkShoot
+    }],
+ "research":{
+ "parent": "surge",
+ "requirements": [
+       silicon/8000,
+       titanium/6500,
+       thorium/7000,
+       phase-fabric/500
+]}
+}

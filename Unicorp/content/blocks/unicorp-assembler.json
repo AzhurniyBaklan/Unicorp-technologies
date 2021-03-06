@@ -1,0 +1,43 @@
+{
+"name": "Unicorp's drones fabricator",
+"description": "The gates to the Great World of Unicorp! Produces all types of drones. And probably financial crysis.",
+"health": 1000,
+"type":"unitFactory",
+"size": 3,
+"consumes": {"power": 3},
+"plans":  [
+  {"unit": "embarassment",
+   "requirements": [
+       silicon/30,
+       titanium/30,
+       metaglass/20
+    ],
+    "time": 600 },
+  {"unit": "backwater",
+   "requirements": [
+    plastanium/40,
+    thorium/50,
+    graphite/60,
+    silicon/70 ]
+   "time": 700
+  },
+  {"unit": "surge",
+   "requirements": [
+    coal/15,
+    silicon/10]
+  "time": 180},
+  {"unit": "aegis",
+   "requirements": [
+    graphite/15,
+    silicon/20,
+    metaglass/15]
+  "time": 600}
+],
+"requirements": [
+  graphite/100,
+  titanium/140,
+  silicon/70,
+],
+"category": "units",
+"research": "mono"
+}

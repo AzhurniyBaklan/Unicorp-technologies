@@ -1,0 +1,24 @@
+{"name": "Aegis"
+ "flying": true,
+ "hovering": true,
+ "description": "Uni-corp's protection drone. Creates a strong power field around it to defend everything, including itself, since it's very frail."
+ "drag": 0.08,
+ "hitsize": 7,
+ "rotateSpeed": 4,
+ "accel": 0.1,
+ "speed": 2,
+ "health": 50,
+ "engineSize": 0,
+ "engineOffset": 0,
+ "lowAltitude": true,
+ "range": 60,
+ "isCounted": false,
+ "itemCapacity": 20,
+ "research":{
+"parent": "quasar",
+"requirements": [
+       silicon/1500,
+       graphite/1500,
+       metaglass/1000
+]}
+}

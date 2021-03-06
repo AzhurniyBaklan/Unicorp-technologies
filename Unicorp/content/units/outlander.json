@@ -1,0 +1,56 @@
+{"name": "Outlander"
+ "type": naval,
+ "description": "Unicorp's experimental risso model. Works pretty much like a mobile meltdown."
+ "hitsize": 38,
+ "trailLength": 30,
+ "trailX": 5.5,
+ "trailY": -4,
+ "trailScl": 2.2,
+ "accel": 0.2,
+ "speed": 1.0,
+ "health": 900,
+ "rotateSpeed": 2.0,
+ "commandLimit": 8,
+ "armor": 6,
+ "lowAltitude": true,
+ "rotateShooting": true,
+ "range": 140,
+ "isCounted": false,
+ "itemCapacity": 80,
+ "weapons":[{
+        "name": "outlander-meltdown",
+        "reload": 300,
+        "x": 0,
+        "y": 2,
+        "mirror": false,
+        "continuous": true,
+        "shootStatus": "slow",
+        "chargeSound": "Sounds.lasercharge2",
+        "shootSound": "beam",
+        "recoil": 5,
+        "shootCone": 10,
+        "firstShotDelay": 5,
+        "shootStatusDuration": "100",
+        "ejectEffect": "none",
+        "bullet": {
+            "type": "ContinuousLaserBulletType",
+            "damage": 35,
+            "length": 200,
+            "drawSize": 330,
+            "lifetime": 100,
+            "buildingDamageMultiplier": 1.2,
+            "incendChance": 0.2,
+            "fadeTime": 15,
+            "incendAmount": 1,
+            "incendSpread": 5,
+            "colors": [d06b53, ffa665]
+        }
+    }],
+ "research":{
+ "parent": "risso",
+ "requirements": [
+    silicon/1500,
+    graphite/2500,
+    titanium/1250
+]}
+}

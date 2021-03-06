@@ -1,0 +1,49 @@
+{"name": "Symbol"
+ "flying": true,
+ "description": "Unicorp's experimental mono model. Frail and fast laser-shooting ship."
+ "drag": 0.07,
+ "range": 70,
+ "hitsize": 17,
+ "accel": 0.1,
+ "speed": 2,
+ "health": 600,
+ "lowAltitude": true,
+ "mineSpeed": 3,
+ "mineTier": 3,
+ "engineSize": 3,
+ "engineOffset": 7.5,
+ "rotateSpeed": 4,
+ "isCounted": false,
+ "armor": 4,
+ "itemCapacity": 60,
+ "weapons":
+ [
+ {"name": "symbol-lancer",
+       "x": 0,
+       "y": 2,
+       "mirror": false,
+       "shake": 2,
+       "recoil": 2,
+       "ejectEffect": none,
+       "shootSound": "laser",
+       "shootEffect": "lancerLaserShoot",
+       "smokeEffect": none,
+       "soundPitchMin": 1,
+       "inaccuracy": 3,
+       "reload": 45,
+       "bullet": {"type": "LaserBulletType",
+                  "sideAngle": 45,
+                  "height": 30,
+                  "sideWidth": 1,
+                  "sideLength": 70,
+                  "colors": [d06b53, ffa665],
+                  "damage": 40, }
+    }],
+ "research":{
+"parent": "mono",
+"requirements": [
+    silicon/1500,
+    graphite/2500,
+    titanium/1250,
+]}
+}
