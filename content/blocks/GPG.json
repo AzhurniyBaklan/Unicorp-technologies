@@ -1,0 +1,22 @@
+{"type": "ThermalGenerator",
+ "name": "GPG",
+ "description": "Geothermal power generator, produces a lot of power when placed on <<hot tiles>>.",
+ "requirements": [
+  metaglass/100,
+  phase-fabric/70,
+  silicon/150,
+  graphite/120,
+  copper/80,
+  plastanium/90,
+  surge-alloy/80
+ ],
+ "powerProduction": 2.6,
+ "generateEffect": "redgeneratespark",
+ "size": 3,
+ "ambientSound": "hum",
+ "ambientSoundVolume": 0.08,
+ "health": 720,
+
+ "research": "thermal-generator",
+ "category": "power"
+}
