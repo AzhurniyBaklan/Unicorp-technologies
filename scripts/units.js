@@ -30,4 +30,5 @@ razor.abilities.add(new  RepairFieldAbility(50, 50, 50));
 
 const aegis = extendContent(UnitType, "aegis", {});
 aegis.constructor = () => extend(UnitEntity, {});
-aegis.abilities.add(new ForceFieldAbility(70, 6, 300, 300), new ShieldRegenFieldAbility(10, 300, 300, 300));
+aegis.defaultController = () => extend(DefenderAI, {});
+aegis.abilities.add(new ForceFieldAbility(60, 3, 270, 800), new ShieldRegenFieldAbility(7, 90, 300, 120));
